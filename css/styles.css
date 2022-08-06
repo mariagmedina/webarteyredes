@@ -11342,4 +11342,7 @@ html {
     .text-xs-center {
     text-align: center;
   } 
+  .navbar-brand img {
+    max-width: 180px;
+}
 }
