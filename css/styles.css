@@ -11337,6 +11337,10 @@ html {
   margin-bottom:90px!important;
 }
 
+.text-white {
+  text-shadow: 0 0 2px #666;
+}
+
 @media (max-width: 767px) {
 
     .text-xs-center {
@@ -11344,5 +11348,10 @@ html {
   } 
   .navbar-brand img {
     max-width: 180px;
+}
+
+.slider-padding {
+  margin-top: 30px!important;
+  margin-bottom: 30px!important;
 }
 }
