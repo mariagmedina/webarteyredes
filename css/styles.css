@@ -11315,12 +11315,16 @@ html {
 .nav-link {
   text-transform: uppercase;
   font-weight:500;
-  padding-top:3px;
-  padding-bottom:3px;
+  padding-top:8px;
+  padding-bottom:8px;
+  transition: 0.3s ease;
 }
 
 .nav-link:hover {
-  text-decoration:underline;
+  color:#fff!important;
+  background-color: #009CBD;
+  border-radius: 40px;
+
 }
 
 .navbar-brand img {
@@ -11328,8 +11332,8 @@ html {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding-right: 1.3rem;
+  padding-left: 1.3rem;
 }
 
 .slider-padding {
@@ -11353,5 +11357,9 @@ html {
 .slider-padding {
   margin-top: 10px!important;
   margin-bottom: 10px!important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  margin-top:5px;
 }
 }
